@@ -11,8 +11,6 @@ if (result.error) {
   process.exit(1);
 }
 
-console.log("DISCORD_TOKEN length:", process.env.DISCORD_TOKEN?.length || 0);
-console.log("First few characters:", process.env.DISCORD_TOKEN?.substring(0, 5) || "not found");
 // Check required environment variables
 const requiredEnvVars = [
   'AWS_REGION',
