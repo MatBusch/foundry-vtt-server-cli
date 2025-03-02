@@ -1,6 +1,6 @@
 # Foundry VTT Server Control
 
-![Scale Me Up](scale-me-up.jpg)
+![Scale Me Up](assets/scale-me-up.jpg)
 
 A Discord bot and CLI tool for controlling a Foundry VTT server hosted on AWS EC2.
 
@@ -27,19 +27,19 @@ Use the CLI tool to manage your server directly from the command line:
 
 ```bash
 # Start the EC2 instance
-npm run cli -- start
+pnpm cli start
 
 # Stop the EC2 instance
-npm run cli -- stop
+pnpm cli stop
 
 # Check the status of the EC2 instance
-npm run cli -- status
+pnpm cli status
 ```
 
 For development:
 ```bash
 # Run the TypeScript files directly
-npm run dev
+pnpm dev
 ```
 
 ## Project Architecture
